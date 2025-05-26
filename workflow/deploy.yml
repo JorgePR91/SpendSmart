@@ -1,3 +1,5 @@
+name: Despliegue InfinityFree
+
 on:
   push:
     branches:
