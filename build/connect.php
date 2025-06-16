@@ -72,7 +72,7 @@ jobs:
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASS }}
           local-dir: ./build/
-          server-dir: /public_html/
+          server-dir: ./public_html/
 
 /* 2. Crear els secrets
 A GitHub, ves al teu repositori i fes:
