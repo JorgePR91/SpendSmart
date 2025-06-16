@@ -48,7 +48,7 @@ name: Desplegament
 on:
   push:
     branches:
-      - 'Jorge'
+      - 'gh-pages'
 // Defineix una feina (job) anomenada publish. La línia contents: write permet escriure al repositori si fos necessari (en aquest cas no és crucial).
 jobs:
   publish:
