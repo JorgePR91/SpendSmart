@@ -16,5 +16,5 @@ jobs:
           server: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASS }}
-          local-dir: ../build/
+          local-dir: ./build/
           server-dir: ./public_html/
