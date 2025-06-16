@@ -1,3 +1,4 @@
+name: Desplegament continu
 on:
   push:
     branches:
