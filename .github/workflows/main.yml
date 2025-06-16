@@ -2,7 +2,7 @@ name: Desplegament continu
 on:
   push:
     branches:
-      - 'main'
+      - 'gh-pages'
 jobs:
   publish:
     permissions:
