@@ -48,7 +48,7 @@ name: Desplegament
 on:
   push:
     branches:
-      - 'gh-pages'
+      - 'Jorge'
 // Defineix una feina (job) anomenada publish. La línia contents: write permet escriure al repositori si fos necessari (en aquest cas no és crucial).
 jobs:
   publish:
@@ -72,7 +72,7 @@ jobs:
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASS }}
           local-dir: ./build/
-          server-dir: ./public_html/
+          server-dir: /public_html/materiales/
 
 /* 2. Crear els secrets
 A GitHub, ves al teu repositori i fes:
